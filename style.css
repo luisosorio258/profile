@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&family=RocknRoll+One&display=swap');
+
 body {
     margin: 0px;
     padding: 0px;
     background: #f1f1f1;
+    font-family: 'RocknRoll One', sans-serif;
+    box-sizing: border-box;
+    background-color: #4367b4;
+    /*background-image: url(img/cyber-3400789_1920.jpg);
+    background-repeat: no-repeat;*/
 }
 
 .card-container {
@@ -14,11 +21,13 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 0px 1px 10px 1px #000;
+    overflow: hidden;
+    display: inline-block;
 }
 
 .upper-container {
     height: 150px;
-    background: #7F00FF;
+    background: #053db6;
 }
 
 .image-container {
@@ -39,5 +48,44 @@ body {
 
 .lower-container {
     height: 280px;
-    background: coral;
+    background: #FFF;
+    padding: 20px;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.lower-container h3, h4 {
+    box-sizing: border-box;
+    line-height: .6;
+    font-weight: lighter;
+}
+
+.lower-container h4 {
+    color: #053db6;
+    opacity: .6;
+    font-weight: bold;
+}
+
+.lower-container p {
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.lower-container .btn {
+    padding: 12px 20px;
+    background: #053db6;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all .3s ease-in;
+}
+
+.lower-container .btn:hover {
+    background: transparent;
+    color: #053db6;
+    border: 2px solid #053db6;
 }
